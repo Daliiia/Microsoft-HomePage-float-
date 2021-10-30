@@ -1,0 +1,338 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#page{
+    width: 90%;
+    /* border: black solid 2px; */
+    margin: auto;
+}
+header a img{ 
+    width: 110px;
+    padding: 15px 10px;
+    /* border: 2px solid black; */
+    float:left;
+    
+}
+header{
+   height: 54px;
+   width: 100%;
+}
+
+header ul{
+    margin: 0px;
+    list-style: none;
+    float: left;
+    padding:0px;
+}
+header ul a{
+    text-decoration: none;
+    color:black;
+    float: left;   
+    padding:17px 10px;
+}
+header a:hover span{
+    border-bottom: 3px solid black;
+    /* border-radius: 50%; */
+}
+header ul li{
+    display: inline-block;
+    /* border: 2px solid black; */
+
+}
+
+header ol{
+    /* border: 2px solid black; */
+    list-style: none;
+    float: right;
+    margin: 0px;
+}
+header ol a{
+    padding: 17px 10px;
+    float:right;
+
+}
+header ol li{
+    float: left;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+}
+
+.one{
+    position: relative;
+}
+.one a img{
+    width:100%;
+    /* border: 2px solid black; */
+    margin: 0px;
+}
+.new{
+    background-color: rgb(255, 166, 0);
+    padding: 10px;
+    font-size: 15px;
+    bottom:50%;
+    width: 45px;
+    height: 15px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+.one h1{
+    color:white;
+    bottom: 47%;
+}
+.one h1,.one h6,.one pre,.one #shop{
+    position: absolute;
+    left: 5%;
+}
+.one pre{
+    color:white;
+    bottom: 39%;
+}
+.one #shop{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s ease-in;   
+    bottom:30%;
+}
+.one #shop:hover span{
+    border-bottom: 2px solid black;
+    margin-right: 10px;
+    transition: 0.3s ease;
+}
+
+
+.one #shop:hover{
+    background-color: rgb(216, 216, 216);
+}
+.two{
+    /* border: 2px solid black; */
+    /* overflow: auto; */
+    float:left;
+    font-weight: 800;
+}
+.bar{
+   float: left;
+   /* border: 2px solid black; */
+   display: block;
+   height: 112px;
+   width: 184px;
+   margin-top:50px;
+   margin-bottom: 50px;
+   padding-top: 20px;
+  
+}
+.bar1{
+    margin-left: 110px;
+}
+.two  a div{
+    text-align: center; 
+}
+.two a:hover div{
+    text-decoration: underline;
+}
+
+.three{
+    overflow: auto;
+    height: 420px;
+}
+.three a{
+    float:left; 
+    /* border: 2px solid rgb(116, 108, 108); */
+    width: 323.83px;
+    font-size: 15px;
+}
+
+.three a img{
+    width: 323.83px;
+    height: 181px;
+}
+
+
+.shopnow{
+    color:rgb(25, 136, 180);
+    display: inline;
+}
+.shopnow:hover span{
+    border-bottom: 2px solid rgb(25, 136, 180);
+    margin-right: 5px;
+    transition:0.3s ease;
+}
+
+ .three h1{
+    /* border: 2px solid black; */
+    display: inline;
+}
+.three .box{
+    height: 370px;
+}
+.three  .box2,.three .box3 {
+    margin-left: 20px;
+} 
+.three .box4{
+    float:right;
+}
+
+.game img{
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.game{
+    position: relative;
+    height: 550px;
+    /* border: 2px solid black; */
+}
+.game p,.game h2,.game .compare{
+    position:absolute;
+    left:6%;
+}
+.game p{
+    top:45%;
+    color:white;
+}
+.game h2{
+    top:35%;
+    color:white;
+}
+
+.game .compare{
+    top:62%;
+    left:20%;
+    width: 200px;
+    color:white;
+    text-align: center;
+}
+.game .compare:hover span{
+    text-decoration: underline;
+    margin-left:10px ;
+    margin-right: 10px;
+    transition: 0.3s ease;
+    text-align:center;
+} 
+ .join{
+    position: absolute;
+    left: 7%;
+}
+ .join {
+    top: 60%; 
+    left: 7%;
+    width: 120px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: white;
+    color:black;
+    width: 200px;
+    text-align: center;
+}
+ .join:hover span{
+    text-decoration: underline;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: 0.3s ease;
+    
+}   
+.join:hover{
+    background-color: rgb(196, 193, 193);
+    transition: 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.business{
+    overflow: auto;
+    height: 530px;
+}
+.business .box{
+    float:left;
+    width: 323px;
+    height: 430px;
+    /* border:2px solid black; */
+}
+.business .box4{
+    float: right;
+    
+
+}
+.business img{
+    width: 100%;
+}
+.business .box2 ,.business .box3{
+    margin-left: 20px;
+}
+.covid{
+    background-color: rgb(223, 221, 221);
+    text-align: center;
+    height: 140px;
+    padding-top: 20px;
+    padding-bottom:7px ;
+}
+.covid .learnmore:hover span{
+    border-bottom: 2px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+.cloud{
+    position: relative;
+    height: 600px;
+}
+.cloud9{
+    position: absolute;
+    top: 25%;
+    color: white;
+    left: 7%;
+}
+.cloud9 .join{
+    left:0%;
+    top: 100%;
+}
+footer{
+    background-color: rgb(240, 235, 235);
+    overflow:auto;
+}
+footer ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float:left;
+}
+.contenthead{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.head li{
+    font-size: 15px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+}
+.head li:hover span{
+    text-decoration: underline;
+}
+.lang{
+    width: 90%;
+    margin:auto;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    overflow:auto;
+}
+.lang span:hover{
+    border-bottom: 1px solid black;
+}
+.lang ul li{
+    display:inline-block;
+    margin-left: 10px;
+}
+.lang ul{
+    margin-top: 14px;
+    float: right;
+}
